@@ -11,6 +11,7 @@
     <modules>
         <module>EurekaServer</module>
         <module>Producer</module>
+        <module>Consumer</module>
     </modules>
 
     <parent>
