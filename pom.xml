@@ -6,7 +6,12 @@
 
     <groupId>Spring-Cloud-Demo</groupId>
     <artifactId>Spring-Cloud-Demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>EurekaServer</module>
+        <module>Producer</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
